@@ -15,38 +15,26 @@
 
 .modal__close-button {
   position: absolute;
+  display: flex;
+  align-items: center;
   top: 8px;
   right: 8px;
   width: 25px;
   height: 25px;
+  border-radius: 50%;
   background: #ffffff;
-  border: none;
-  box-sizing: border-box;
-  opacity: 1;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 
-  &::after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    border: 1px solid black;
-    border-radius: 50%;
-    background-color: #fff;
-    transform: translate(-9px, -22px);
-  }
-
-  &:hover::after {
-    border: 1px solid #2196f3;
+  &:focus {
+    border-color: #2196f3;
   }
 }
 
 .modal-close-icon {
-  display: inline-block;
-  transform: translate(461px, -29px);
+  display: block;
   pointer-events: none;
 
-  .modal__close-button:hover + & {
+  .modal__close-button:hover & {
     fill: #2196f3;
   }
 }

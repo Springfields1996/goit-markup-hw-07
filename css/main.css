@@ -1108,42 +1108,31 @@ h6 {
 
 .modal__close-button {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   top: 8px;
   right: 8px;
   width: 25px;
   height: 25px;
-  background: #ffffff;
-  border: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  opacity: 1;
-}
-
-.modal__close-button::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  border: 1px solid black;
   border-radius: 50%;
-  background-color: #fff;
-  -webkit-transform: translate(-9px, -22px);
-          transform: translate(-9px, -22px);
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.modal__close-button:hover::after {
-  border: 1px solid #2196f3;
+.modal__close-button:focus {
+  border-color: #2196f3;
 }
 
 .modal-close-icon {
-  display: inline-block;
-  -webkit-transform: translate(461px, -29px);
-          transform: translate(461px, -29px);
+  display: block;
   pointer-events: none;
 }
 
-.modal__close-button:hover + .modal-close-icon {
+.modal__close-button:hover .modal-close-icon {
   fill: #2196f3;
 }
 

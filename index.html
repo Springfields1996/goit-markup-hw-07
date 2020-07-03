@@ -408,12 +408,12 @@
           <div class="container-footer footer__subscribe">
             <p class="footer__text">Подпишитесь на рассылку</p>
             <div class="footer__subscribe--positioning">
-              <form action="">
-                  <input class="footer-form__input" type="email" placeholder="E-mail">
+              <form class="form-subscribe" action="">
+                <input class="footer-form__input" type="email" placeholder="E-mail">
+                <button class="btn btn-footer" type="submit">
+                  Подписаться
+                </button>
               </form>
-              <button class="btn btn-footer">
-                Подписаться
-              </button>
             </div>
           </div>
         </div>
@@ -422,10 +422,11 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal__close-button" data-modal-close>X</button>
+        <button class="modal__close-button" data-modal-close>
           <svg class="modal-close-icon" width="12px" height="12px">
             <use href="./image/sprite-2.svg#modal-close-icon"></use>
           </svg>
+        </button>
           <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
           <form>
             <div class="input">
