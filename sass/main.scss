@@ -1,6 +1,34 @@
-@import "_variables";
-@import "_base";
-
-body {
-  background-color: $accent-color;
-}
+@import "./utils/variables";
+@import "./utils/base";
+@import "./layout/header";
+@import "./components/logo";
+@import "./components/navigation";
+@import "./components/contact-links-header";
+@import "./layout/body";
+@import "./layout/container";
+@import "./layout/hero";
+@import "./components/button-hero";
+@import "./layout/layout-main";
+@import "./layout/advantages";
+@import "./components/advantages-cards";
+@import "./components/advantages-cards-description";
+@import "./components/main-page-headers";
+@import "./components/specialization-cards";
+@import "./layout/team";
+@import "./components/team-cards";
+@import "./components/socials";
+@import "./components/clients-block";
+@import "./components/client-icons";
+@import "./components/portfolio-cards";
+@import "./layout/portfolio";
+@import "./components/portfolio-buttons";
+@import "./layout/footer";
+@import "./components/footer-contacts";
+@import "./components/socials-footer";
+@import "./components/footer-form";
+@import "./components/footer-button";
+@import "./layout/backdrop";
+@import "./layout/modal";
+@import "./components/modal-button";
+@import "./components/modal-input";
+@import "./components/custom-checkbox";

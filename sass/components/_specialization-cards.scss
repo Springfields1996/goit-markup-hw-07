@@ -1,0 +1,31 @@
+.block__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -15px;
+}
+
+.block__item {
+  margin: 15px;
+}
+
+.block__float {
+  position: relative;
+}
+
+.block__text {
+  position: absolute;
+  bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  padding: 27px 0;
+
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 370px;
+}

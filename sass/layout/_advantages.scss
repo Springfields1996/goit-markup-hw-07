@@ -1,0 +1,11 @@
+.layout {
+  width: 1600px;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+    margin: -15px;
+  }
+}

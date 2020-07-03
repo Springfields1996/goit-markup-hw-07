@@ -123,10 +123,35 @@ table {
 
 html {
   box-sizing: border-box;
+  width: 100%;
+  height: 100%;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+input,
+textarea {
+  font-family: "Roboto";
+  font-weight: 400;
+  opacity: 1;
+  font-size: 14px;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+}
+
+p {
+  line-height: 1.2;
 }

@@ -1,0 +1,23 @@
+.btn-footer {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  margin-left: 10px;
+  padding: 10px 28px;
+  cursor: pointer;
+
+  &::after {
+    content: "";
+    background-image: url(../image/icon-send.svg);
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    background-size: contain;
+    align-items: center;
+  }
+}

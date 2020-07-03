@@ -1,0 +1,9 @@
+.layout {
+  width: 1600px;
+  margin: 0 auto;
+
+  &__section {
+    display: flex;
+    margin-bottom: 94px;
+  }
+}

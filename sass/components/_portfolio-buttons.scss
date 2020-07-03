@@ -1,0 +1,38 @@
+.buttons__list {
+  display: flex;
+  padding-bottom: 56px;
+  justify-content: center;
+}
+
+.buttons__filter {
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 22px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &__current {
+    color: #fff;
+    background: #2196f3;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 3px 1px rgba(0, 0, 0, 0.1);
+  }
+  &:hover,
+  &:focus {
+    color: #fff;
+    background: #2196f3;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 3px 1px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+}
+
+.buttons__padding {
+  padding: 0 4px;
+}
