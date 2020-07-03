@@ -1000,6 +1000,12 @@ h6 {
   color: transparent;
 }
 
+.form-subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .btn-footer {
   font-weight: 700;
   font-size: 16px;
